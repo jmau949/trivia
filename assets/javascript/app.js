@@ -15,7 +15,8 @@ var questions = [
     {
         question: "is sky blue?",
         choices: ["yes", "no", "maybe", "idk"],
-        answer: "yes"
+        answer: "yes",
+        seconds: 'no'
     }
 ]
 var correct;
