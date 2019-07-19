@@ -15,27 +15,23 @@
     <div class="container container1">
         <div class="jumbotron">
             <h1 class="display-4 text-center">Harry Potter Trivia Game</h1>
-            <p class="lead text-center">20 Seconds for each question!</p>
+
             <hr class="my-4">
         <div class="container container2">
             <div class="text-center">
-                <a class="btn btn-primary btn-lg start" href="#" role="button" id="start">Start Trivia</a>
+                <a class="btn btn-primary btn-lg start" href="#" role="button" class="start">Start Trivia</a>
             </div>
-            <div class="text-center timer">
-                Timer
-            </div><br>
             <div class="text-center question">
-                Input Question Here
             </div><br>
             <div class="container">
-                <div class="row">
-                  <button type="button" class="btn btn-light col text-center answer1">Column</button>
-                  <button type="button" class="btn btn-light col text-center answer2">Column</button>
-                  <div class="w-100"></div><br>
-                  <button type="button" class="btn btn-light col text-center answer3">Column</button>
-                  <button type="button" class="btn btn-light col text-center answer4">Column</button>
-                </div>
+                <div class="wrapper">	
+                    <div class= "text-center timeleft"></div>
+                    <div class= "questionblock"></div>
+                    <div class= "answerblock"></div>
               </div>
+              <div class="text-center">
+                <a class="btn btn-primary btn-lg reset" href="#" role="button">Reset</a>
+            </div>
         </div>
         </div>
 

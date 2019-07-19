@@ -1,8 +1,49 @@
 .container1 {
-    padding-top: 70px;
+padding-top: 70px;
 }
 
 body {
-    background-image: url("../images/background.png");
-    font-family: 'Karla', sans-serif;
-  }
+background-image: url("../images/background.png");
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.answerchoice {
+border: 1px solid black;
+border-radius: 5%;
+width: 40%;
+color: black;
+text-align: center;
+margin: 10px auto;
+font-size: 20px;
+background-color: white;
+}
+img {
+max-height: 250px;
+width: auto;
+}
+.answerblock {
+text-align: center;
+}
+.questionblock {
+text-align: center;
+font-weight: bold;
+}
+.reset {
+visibility: visible;
+}
+h1 {
+text-align: center;
+color: black;
+font-weight: bolder;
+padding: 20px;
+font-size: 45px;
+}
+p {
+margin: 10px;
+font-weight: bold;
+color: red;
+font-size: 20px;
+}
+h2, h4 {
+margin: 30px;
+font-weight: bold;
+}
